@@ -1,5 +1,9 @@
 # 🚗 Aplikasi Sewa Kendaraan Berbasis Web
 
+**Nama:** Manuel Johansen Dolok Saribu  
+**NIM:** 312410493  
+**Kelas:** TI.24.A5
+
 ## Deskripsi
 Aplikasi Sewa Kendaraan adalah aplikasi berbasis web yang dibuat untuk memenuhi **UAS Pemrograman Web**.  
 Aplikasi ini digunakan untuk membantu pengelolaan penyewaan kendaraan, mulai dari manajemen data kendaraan, data pelanggan, hingga transaksi sewa.
@@ -79,22 +83,66 @@ rental-kendaraan/
 │
 ├── app/
 │   ├── controllers/
+│   │   ├── AuthController.php
+│   │   ├── DashboardController.php
+│   │   ├── HomeController.php
+│   │   ├── KendaraanController.php
+│   │   ├── PelangganController.php
+│   │   ├── TransaksiController.php
+│   │   └── LaporanController.php
+│   │
 │   ├── models/
-│   └── views/
+│   │   ├── User.php
+│   │   ├── Kendaraan.php
+│   │   ├── Pelanggan.php
+│   │   ├── Transaksi.php
+│   │   └── Denda.php
+│   │
+│   ├── views/
+│   │   ├── auth/
+│   │   │   └── login.php
+│   │   ├── layouts/
+│   │   │   ├── header.php
+│   │   │   ├── sidebar.php
+│   │   │   └── footer.php
+│   │   ├── dashboard/
+│   │   │   └── index.php
+│   │   ├── kendaraan/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   └── edit.php
+│   │   ├── pelanggan/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   └── edit.php
+│   │   ├── transaksi/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── detail.php
+│   │   │   └── pengembalian.php
+│   │   └── laporan/
+│   │       └── index.php
+│   │
+│   └── core/
+│       ├── App.php
+│       └── Controller.php
 │
 ├── config/
-│   └── database.php
+│   └── Database.php
 │
 ├── public/
-│   ├── css/
-│   ├── js/
-│   └── images/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └──  js/
+│   │        └── script.js 
+│   │       
+│   ├── .htaccess
+│   └── index.php
 │
-├── .htaccess
-├── index.php
-└── README.md
+└── database/
+    └── rental_kendaraan.sql
 ```
-
 ---
 
 ## Screenshot Aplikasi
@@ -120,7 +168,6 @@ rental-kendaraan/
 ### 7. Transaksi Penyewaan
 ![Transaksi](screenshots/transaksi.png)
 
-> 📌 *Catatan:* Screenshot disimpan pada folder **screenshots/** sesuai dengan proses aplikasi.
 
 ---
 
@@ -128,19 +175,33 @@ rental-kendaraan/
 1. Pastikan web server (Apache) dan database MySQL sudah aktif
 2. Import database ke MySQL
 3. Simpan project ke dalam folder `htdocs`
-4. Atur konfigurasi database pada folder `config/database.php`
-5. Jalankan aplikasi melalui browser
+4. Atur konfigurasi database pada folder `public/indek.php`
+```php
+<?php
+// Configuration
+define('BASE_URL', 'http://localhost/rental-kendaraan/public/');
+
+// Autoload core files
+require_once '../app/core/App.php';
+require_once '../app/core/Controller.php';
+require_once '../config/Database.php';
+
+// Run application
+$app = new App();
+?>
+```
+6. Jalankan aplikasi melalui browser
 
 ---
 
-## Akun Login (Contoh)
+## Akun Login 
 **Admin**
 - Username: admin
-- Password: admin123
+- Password: admin
 
 **Operator**
 - Username: operator
-- Password: operator123
+- Password: user123
 
 ---
 
@@ -154,8 +215,3 @@ rental-kendaraan/
 Aplikasi Sewa Kendaraan ini dibuat untuk memenuhi seluruh ketentuan **UAS Pemrograman Web**.  
 Diharapkan aplikasi ini dapat membantu proses pengelolaan penyewaan kendaraan secara efektif dan terstruktur.
 
----
-
-**Nama:** [Isi Nama Mahasiswa]  
-**NIM:** [Isi NIM]  
-**Kelas:** [Isi Kelas]
