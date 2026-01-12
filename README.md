@@ -148,25 +148,29 @@ rental-kendaraan/
 ## Screenshot Aplikasi
 
 ### 1. Halaman Login
-![Login](screenshots/login.png)
+![Login](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20214631.png)
 
 ### 2. Dashboard Admin
-![Dashboard Admin](screenshots/dashboard-admin.png)
+![Dashboard Admin](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20214817.png)
 
 ### 3. Dashboard Operator
-![Dashboard Operator](screenshots/dashboard-operator.png)
+![Dashboard Operator](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20214902.png)
 
 ### 4. Data Kendaraan
-![Data Kendaraan](screenshots/data-kendaraan.png)
+![Data Kendaraan](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20214936.png)
+![Data Kendaraan](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20215220.png)
 
 ### 5. Tambah / Edit Kendaraan
-![Form Kendaraan](screenshots/form-kendaraan.png)
+![Form Kendaraan](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20215105.png)
+![Form Kendaraan](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20215137.png)
 
 ### 6. Data Pelanggan
-![Data Pelanggan](screenshots/data-pelanggan.png)
+![Data Pelanggan](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20214953.png)
+![Data Pelanggan](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20215237.png)
 
 ### 7. Transaksi Penyewaan
-![Transaksi](screenshots/transaksi.png)
+![Transaksi](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20215011.png)
+![Transaksi](https://github.com/Manueljds2311105/UASWEB1/blob/6ed7f2c496217f0e3f825099cff953ad7984e22f/Screenshots/Screenshot%202026-01-12%20215317.png)
 
 
 ---
@@ -207,7 +211,7 @@ $app = new App();
 
 ## Dokumentasi
 - 📄 Dokumentasi PDF (penjelasan & screenshot)
-- 🎥 Video dokumentasi (YouTube, durasi < 10 menit)
+- 🎥 Video dokumentasi (https://youtu.be/NFqFjV-8wBY?si=6ZTQaRnlVqARRmX4)
 
 ---
 
